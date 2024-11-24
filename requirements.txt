@@ -1,2 +1,3 @@
-streamlit
-Bio.Seq
+strematlit
+matplotlib.pyplot
+seaborn
