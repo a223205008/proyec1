@@ -1,5 +1,5 @@
 import streamlit as st
-import Bio.Seq as Seq
+from Bio.Seq as Seq
 
 def traducir_adn(entrada_adn):
     """
