@@ -50,7 +50,8 @@ if st.button('Comparar Secuencias'):
             # Mostrar los resultados de la comparación
             st.write(f'Cantidad de aminoácidos coincidentes: {coincidencias}')
             st.write(f'Diferencias en la proteína: {diferencias}')
-	else:
+            
+        else:
             st.error("Hubo un error al traducir las secuencias de ADN.")
     else:
         st.warning("Por favor, ingresa ambas secuencias de ADN.")
